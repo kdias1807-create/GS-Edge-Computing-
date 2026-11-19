@@ -184,10 +184,6 @@ Num cenário real, o ESP32 enviaria cada ocorrência por Wi-Fi (MQTT) para um ba
 | **10** Redução das desigualdades | Mais autonomia para circular pela cidade |
 | **11** Cidades sustentáveis | Espaço público acessível para todos |
 
-## Estrutura do repositório
-
-
-
 ## Equipe
 
 | Nome | RM |
