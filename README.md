@@ -1,7 +1,7 @@
 # Calçada Acessível · Sensor com ESP32
 
 **Global Solution 2026.2 · CitizenTech · Edge Computing & Computer Systems**
-Equipe [nome da equipe] · Engenharia de Software 1º ano · FIAP [Paulista / Lins]
+· Engenharia de Software 1º ano · FIAP [Paulista / Lins]
 
 > Calçada Acessível é um app colaborativo em que a comunidade marca os problemas e os bons exemplos das calçadas, para todo mundo escolher o melhor caminho. Esta entrega é o **sensor com ESP32** da solução: um dispositivo que acompanha a pessoa, detecta obstáculos, trepidação e falta de luz, decide sozinho e alerta na hora, sem depender de internet.
 
