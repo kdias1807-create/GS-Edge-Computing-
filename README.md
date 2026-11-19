@@ -24,7 +24,6 @@ Equipe [nome da equipe] · Engenharia de Software 1º ano · FIAP [Paulista / Li
 | Problema, em uma frase | Não dá para saber antes quais calçadas estão bloqueadas |
 | Como funciona | A comunidade marca problemas e bons exemplos num mapa colaborativo |
 | Principais funções | Reportar, consultar o mapa e acompanhar o conserto |
-| Link do repositório | [link do GitHub] |
 | Indicador de impacto | Ocorrências resolvidas e tempo médio até o conserto |
 | ODS conectados | 3 · 10 · 11 |
 
