@@ -9,8 +9,8 @@ Equipe [nome da equipe] · Engenharia de Software 1º ano · FIAP [Paulista / Li
 
 | Item | Link |
 |---|---|
-| Simulação no Wokwi | [colar o link público] |
-| Vídeo no YouTube | [colar o link] |
+| Simulação no Wokwi | [https://wokwi.com/projects/481161279072109569 |
+| Vídeo no YouTube | [https://youtu.be/wBfUwIu19S8 |
 
 **Índice:** [Ficha](#ficha-da-citizentech) · [Problema](#o-problema) · [Descrição](#descrição-do-projeto) · [Componentes](#componentes-utilizados) · [Circuito](#circuito) · [Lógica](#lógica-de-funcionamento) · [Como executar](#como-executar-a-simulação) · [Evolução](#evolução-futura) · [ODS](#ods) · [Equipe](#equipe)
 
