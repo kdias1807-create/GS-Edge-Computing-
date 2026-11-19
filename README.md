@@ -124,18 +124,6 @@ Tópicos (troque `<ID>` pelo ID da equipe):
 {"id":1,"categoria":"problema","tipo":"obstaculo","gravidade":3,"status":"aberta","confirmacoes":0,"dist_cm":24.8,"impacto_g":0.03,"luz":1200,"origem":"esp32"}
 ```
 
-## O app (camada 3)
-
-Página única (`app/index.html`), pensada para o celular.
-
-- **Reportar:** tipo, gravidade de 1 a 3, descrição, local (marcador arrastável no mapa, GPS do celular) e foto. O endereço é preenchido a partir das coordenadas.
-- **Consultar:** mapa com os pontos críticos e os bons trechos, filtros e o que há em até 500 m de você.
-- **Acompanhar:** outros usuários confirmam a ocorrência, e o status vai de aberta a confirmada, encaminhada e resolvida (o modo subprefeitura encaminha e resolve).
-- **Sensor:** painel ao vivo com o estado e as leituras do ESP32. Com a opção "Este celular acompanha o sensor", cada alerta do dispositivo vira uma ocorrência no mapa, com a localização do celular.
-- **Indicadores de impacto:** problemas mapeados, % resolvidos, tempo médio até o conserto e bons trechos.
-
-Campos da ocorrência: categoria, tipo, descrição, endereço, latitude e longitude, gravidade (0 a 3), status, confirmações e data de registro.
-
 ## Como executar
 
 ### 1. Simulação no Wokwi
@@ -150,11 +138,6 @@ Campos da ocorrência: categoria, tipo, descrição, endereço, latitude e longi
    - **Pouca luz:** LDR, reduza a luz. Se vier invertido, mude `INVERTER_LDR` para `true`.
    - **Falha de sensor:** pare a simulação, desconecte o fio SDA do MPU6050 e inicie de novo.
 
-### 2. App colaborativo
-
-- **Teste rápido:** abra `app/index.html?id=SEU-ID` no navegador (o mesmo ID do `TEAM_ID`).
-- **No celular:** publique a pasta no GitHub Pages (Settings → Pages) e abra `https://<usuario>.github.io/<repositorio>/app/?id=SEU-ID`.
-- Permita a localização quando o navegador pedir.
 
 ## Limitações conhecidas
 
